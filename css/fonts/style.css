@@ -1,0 +1,524 @@
+@font-face {
+  font-family: 'lbi_icons';
+  src:  url('lbi_icons9568.eot?7dlpqz');
+  src:  url('lbi_icons9568.eot?7dlpqz#iefix') format('embedded-opentype'),
+    url('lbi_icons9568.ttf?7dlpqz') format('truetype'),
+    url('lbi_icons9568.woff?7dlpqz') format('woff'),
+    url('lbi_icons9568.svg?7dlpqz#lbi_icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lbi_icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-apli:before {
+  content: "\e600";
+}
+.icon-calculette:before {
+  content: "\e601";
+}
+.icon-contactmail:before {
+  content: "\e602";
+}
+.icon-dailymotion:before {
+  content: "\e603";
+}
+.icon-dailymotion2:before {
+  content: "\e604";
+}
+.icon-email:before {
+  content: "\e605";
+}
+.icon-email2:before {
+  content: "\e606";
+}
+.icon-espaceproprietaire:before {
+  content: "\e607";
+}
+.icon-facebook:before {
+  content: "\e608";
+}
+.icon-facebook2:before {
+  content: "\e609";
+}
+.icon-fleche:before {
+  content: "\e60a";
+}
+.icon-f-left:before {
+  content: "\e60b";
+}
+.icon-f-right:before {
+  content: "\e60c";
+}
+.icon-googleplus:before {
+  content: "\e60d";
+}
+.icon-googleplus2:before {
+  content: "\e60e";
+}
+.icon-imprimer:before {
+  content: "\e60f";
+}
+.icon-localisation:before {
+  content: "\e610";
+}
+.icon-localisation2:before {
+  content: "\e611";
+}
+.icon-loop:before {
+  content: "\e612";
+}
+.icon-mini-f-left:before {
+  content: "\e613";
+}
+.icon-mini-f-right:before {
+  content: "\e614";
+}
+.icon-partager:before {
+  content: "\e615";
+}
+.icon-rechercher:before {
+  content: "\e616";
+}
+.icon-selection:before {
+  content: "\e617";
+}
+.icon-telephone:before {
+  content: "\e618";
+}
+.icon-telfix:before {
+  content: "\e619";
+}
+.icon-twitter:before {
+  content: "\e61a";
+}
+.icon-twitter2:before {
+  content: "\e61b";
+}
+.icon-twitter3:before {
+  content: "\e61c";
+}
+.icon-voirplus:before {
+  content: "\e61d";
+}
+.icon-youtube:before {
+  content: "\e61e";
+}
+.icon-youtube2:before {
+  content: "\e61f";
+}
+.icon-raquo:before {
+  content: "\e620";
+}
+.icon-calculette2:before {
+  content: "\e621";
+}
+.icon-contactmail2:before {
+  content: "\e622";
+}
+.icon-femer:before {
+  content: "\e623";
+}
+.icon-flechecarousel-r:before {
+  content: "\e624";
+}
+.icon-flechecarousel-l:before {
+  content: "\e625";
+}
+.icon-imprimer2:before {
+  content: "\e626";
+}
+.icon-multisupport:before {
+  content: "\e627";
+}
+.icon-panier:before {
+  content: "\e628";
+}
+.icon-voirplus2:before {
+  content: "\e629";
+}
+.icon-partager2:before {
+  content: "\e62a";
+}
+.icon-plus:before {
+  content: "\e62b";
+}
+.icon-panier2:before {
+  content: "\e62c";
+}
+.icon-guillemet:before {
+  content: "\e62d";
+}
+.icon-visite:before {
+  content: "\e800";
+}
+.icon-cle:before {
+  content: "\e900";
+}
+.icon-telfix2:before {
+  content: "\e901";
+}
+.icon-linkedin:before {
+  content: "\e902";
+}
+.icon-download:before {
+  content: "\e903";
+}
+.icon-activite:before {
+  content: "\e904";
+}
+.icon-appartement:before {
+  content: "\e905";
+}
+.icon-commerce:before {
+  content: "\e906";
+}
+.icon-maison:before {
+  content: "\e907";
+}
+.icon-piece:before {
+  content: "\e908";
+}
+.icon-quartier:before {
+  content: "\e909";
+}
+.icon-secteur:before {
+  content: "\e90a";
+}
+.icon-ville:before {
+  content: "\e90b";
+}
+.icon-coeur:before {
+  content: "\e90c";
+}
+.icon-coeur2:before {
+  content: "\e90d";
+}
+.icon-document:before {
+  content: "\e90e";
+}
+.icon-viadeo:before {
+  content: "\e90f";
+}
+.icon-estimation:before {
+  content: "\e910";
+}
+.icon-calculette3:before {
+  content: "\e911";
+}
+.icon-instagram:before {
+  content: "\e912";
+}
+.icon-pinterest:before {
+  content: "\e913";
+}
+.icon-arrow_down:before {
+  content: "\e914";
+}
+.icon-arrow_up:before {
+  content: "\e915";
+}
+.icon-brochure:before {
+  content: "\e916";
+}
+.icon-caddie:before {
+  content: "\e917";
+}
+.icon-cadre:before {
+  content: "\e918";
+}
+.icon-cafe:before {
+  content: "\e919";
+}
+.icon-calculator:before {
+  content: "\e91a";
+}
+.icon-calendar:before {
+  content: "\e91b";
+}
+.icon-cle2:before {
+  content: "\e91c";
+}
+.icon-dailymotion3:before {
+  content: "\e91d";
+}
+.icon-email3:before {
+  content: "\e91e";
+}
+.icon-fauteuil:before {
+  content: "\e91f";
+}
+.icon-feuille:before {
+  content: "\e920";
+}
+.icon-home:before {
+  content: "\e921";
+}
+.icon-Info:before {
+  content: "\e922";
+}
+.icon-localisation3:before {
+  content: "\e923";
+}
+.icon-localiser:before {
+  content: "\e924";
+}
+.icon-percent:before {
+  content: "\e925";
+}
+.icon-phone:before {
+  content: "\e926";
+}
+.icon-plan:before {
+  content: "\e927";
+}
+.icon-play:before {
+  content: "\e928";
+}
+.icon-pluslight:before {
+  content: "\e929";
+}
+.icon-pluslighter:before {
+  content: "\e92a";
+}
+.icon-porte:before {
+  content: "\e92b";
+}
+.icon-rouleau:before {
+  content: "\e92c";
+}
+.icon-shop:before {
+  content: "\e92d";
+}
+.icon-tampon:before {
+  content: "\e92e";
+}
+.icon-train:before {
+  content: "\e92f";
+}
+.icon-user:before {
+  content: "\e930";
+}
+.icon-valider:before {
+  content: "\e931";
+}
+.icon-verdure:before {
+  content: "\e932";
+}
+.icon-visite2:before {
+  content: "\e933";
+}
+.icon-youtube3:before {
+  content: "\e934";
+}
+.icon-folder:before {
+  content: "\e935";
+}
+.icon-tooltipright:before {
+  content: "\e936";
+}
+.icon-tooltipleft:before {
+  content: "\e937";
+}
+.icon-affichage:before {
+  content: "\e938";
+}
+.icon-localisation4:before {
+  content: "\e939";
+}
+.icon-virtualvisite:before {
+  content: "\e93a";
+}
+.icon-etoile:before {
+  content: "\e93b";
+}
+.icon-juridique:before {
+  content: "\e93c";
+}
+.icon-maison2:before {
+  content: "\e93d";
+}
+.icon-recrutement:before {
+  content: "\e93e";
+}
+.icon-linkedin2:before {
+  content: "\e93f";
+}
+.icon-extranet:before {
+  content: "\e940";
+}
+.icon-livraison:before {
+  content: "\e941";
+}
+.icon-lots:before {
+  content: "\e942";
+}
+.icon-pin_map:before {
+  content: "\e943";
+}
+.icon-pin_vide:before {
+  content: "\e944";
+}
+.icon-plan2:before {
+  content: "\e945";
+}
+.icon-email4:before {
+  content: "\e946";
+}
+.icon-facebook_vide:before {
+  content: "\e947";
+}
+.icon-fiscal:before {
+  content: "\e948";
+}
+.icon-construction:before {
+  content: "\e949";
+}
+.icon-plus_cadre:before {
+  content: "\e94a";
+}
+.icon-plus_actif:before {
+  content: "\e94b";
+}
+.icon-plus_big:before {
+  content: "\e94c";
+}
+.icon-loop2:before {
+  content: "\e94d";
+}
+.icon-simulation:before {
+  content: "\e94e";
+}
+.icon-telephone_vide:before {
+  content: "\e94f";
+}
+.icon-twitter_vide:before {
+  content: "\e950";
+}
+.icon-loi_pinel:before {
+  content: "\e951";
+}
+.icon-partager3:before {
+  content: "\e952";
+}
+.icon-ptz:before {
+  content: "\e953";
+}
+.icon-rt2012:before {
+  content: "\e954";
+}
+.icon-telecharger2:before {
+  content: "\e955";
+}
+.icon-bbc:before {
+  content: "\e956";
+}
+.icon-calculette4:before {
+  content: "\e957";
+}
+.icon-etoile_vide:before {
+  content: "\e958";
+}
+.icon-imprimer3:before {
+  content: "\e959";
+}
+.icon-verre:before {
+  content: "\e95a";
+}
+.icon-bibliotheque:before {
+  content: "\e95b";
+}
+.icon-cinema:before {
+  content: "\e95c";
+}
+.icon-college:before {
+  content: "\e95d";
+}
+.icon-enseignementsuperieur:before {
+  content: "\e95e";
+}
+.icon-gareferroviaire:before {
+  content: "\e95f";
+}
+.icon-lycee:before {
+  content: "\e960";
+}
+.icon-mairie:before {
+  content: "\e961";
+}
+.icon-ecolematernelle:before {
+  content: "\e962";
+}
+.icon-bureaudeposte:before {
+  content: "\e963";
+}
+.icon-presseettabac:before {
+  content: "\e964";
+}
+.icon-ecoleprimaire:before {
+  content: "\e965";
+}
+.icon-instagram2:before {
+  content: "\e966";
+}
+.icon-fleche-down:before {
+  content: "\e967";
+}
+.icon-calendrier:before {
+  content: "\e968";
+}
+.icon-googleplus3:before {
+  content: "\e969";
+}
+.icon-defiscalisation:before {
+  content: "\e96a";
+}
+.icon-ville2:before {
+  content: "\e96b";
+}
+.icon-adresse:before {
+  content: "\e96c";
+}
+.icon-word:before {
+  content: "\e96d";
+}
+.icon-tel_fix:before {
+  content: "\e96e";
+}
+.icon-actu:before {
+  content: "\e96f";
+}
+.icon-snapchat:before {
+  content: "\e970";
+}
+.icon-emailadress:before {
+  content: "\e971";
+}
+.icon-localisationfat:before {
+  content: "\e972";
+}
+.icon-phonemove:before {
+  content: "\e973";
+}
+.icon-dailymotion1:before {
+  content: "\e974";
+}
+.icon-vimeo:before {
+  content: "\eaa0";
+}
+.icon-vimeo2:before {
+  content: "\eaa1";
+}

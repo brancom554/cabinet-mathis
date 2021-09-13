@@ -1,0 +1,185 @@
+.pageLogin {
+    background: url('../../../../img/admin/loginV2/biensVendus/background_2.png') no-repeat 75% 0%;
+    background-size: cover;
+}
+
+
+.pageLogin .iFrameContainer .iFrameContent.biensVendus {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 0 50px;
+    height: 100%;
+}
+
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    max-width: 550px;
+    width: 100%;
+}
+
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .titre {
+    display: flex;
+    flex-direction: column;
+    line-height: 1 !important;
+    align-items: center;
+    width: 100%;
+}
+
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .dvf {
+    width: 100%;
+}
+
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_1,
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_2,
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_3,
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_4,
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_5 {
+    width: 100%;
+}
+
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_1 {
+    text-transform: uppercase;
+    font-family: 'NexaBlack';
+    font-size: 32px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    padding: 2.5px;
+}
+
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_1:before,
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_1:after {
+    content: '';
+    width: 50%;
+    height: 1px;
+    background: #ddd;
+    margin: 0 10px;
+}
+
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_2 {
+    font-family: 'NexaBlack';
+    text-transform: uppercase;
+    color: #f59a00;
+    font-size: 44px;
+    letter-spacing: 2px;
+}
+
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_3 {
+    font-family: 'NexaLight';
+    text-transform: uppercase;
+    font-size: 29px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5px 0;
+}
+
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .border.text_3:before,
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .border.text_3:after {
+    content: '';
+    width: 50%;
+    height: 1px;
+    background: #ddd;
+    margin: 0 10px;
+}
+
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_4 {
+    font-family: 'BebasNeueBold';
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_5 {
+    font-size: 54px;
+}
+
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .logo {
+    object-fit: contain;
+    padding-left: 15px;
+}
+
+.pageLogin .iFrameContainer .iFrameContent.biensVendus .background_4 {
+    width: 600px;
+}
+
+.pageLogin .iFrameContainer .background_1 {
+    z-index: -1;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 325px;
+}
+
+.pageLogin .iFrameContainer .background_3 {
+    height: 150px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.pageLogin .iFrameContainer .text_6 {
+    z-index: 100;
+    font-size: 12px;
+    padding-top: 15px;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+}
+
+.pageLogin .imgMoreOut {
+    position: absolute;
+    top: 80px;
+    z-index: 9999;
+    right: 480px;
+}
+
+@media screen and (max-width: 1600px) {
+    .pageLogin .imgMoreOut {
+        right: 395px;
+        width: 275px;
+        top: 120px;
+    }
+    .pageLogin .iFrameContainer .background_1 {
+        width: 200px;
+    }
+    .pageLogin .iFrameContainer .background_3 {
+        height: 130px;
+    }
+    .pageLogin .iFrameContainer .iFrameContent.biensVendus .background_4 {
+        width: 500px;
+    }
+
+    .pageLogin .iFrameContainer .iFrameContent.biensVendus {
+        padding: 75px 0 30px;
+    }
+    .pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent {
+        max-width: 460px;
+    }
+    .pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_1 {
+        font-size: 28px;
+    }
+    .pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_2 {
+        font-size: 34px;
+    }
+    .pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_3 {
+        font-size: 22px;
+    }
+    .pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_4 {
+        font-size: 40px;
+    }
+    .pageLogin .iFrameContainer .iFrameContent.biensVendus .textContent .text_5 {
+        font-size: 40px;
+    }
+}

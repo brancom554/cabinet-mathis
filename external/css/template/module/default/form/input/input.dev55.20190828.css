@@ -1,0 +1,24 @@
+.inputDefault {
+    border: 1px solid rgba(0,0,0,0.1);
+    background: #fff;
+    color: #4b4b4b;
+    line-height: 1;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.labelDefault {
+    padding: 5px 0;
+    font-weight: 700;
+}
+
+.inputDefault::placeholder {
+    color: #4b4b4b;
+}
+
+@media screen and (max-width: 1600px) {
+    .inputDefault {
+        padding: 10px;
+    }
+}

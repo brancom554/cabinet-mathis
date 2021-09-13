@@ -1,0 +1,276 @@
+.iFrameContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.iFrameContent .compteurContainer {
+    position: relative;
+    z-index: 3;
+    padding-top: 250px;
+}
+
+.iFrameContent .text {
+    font-family: 'NexaBlack';
+    z-index: 1;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.iFrameContent .compteurContainer .logo {
+    z-index: -1;
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+
+}
+
+.iFrameContent .textBottom {
+    padding: 50px 0;
+}
+
+.iFrameContent .textBottom .titre_0 {
+    font-family: 'BebasNeueBold';
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1;
+    z-index: 2;
+}
+
+.iFrameContent .textBottom .titre_0 .strongText {
+    font-family: 'BebasNeueBold';
+    color: #f59a00;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.iFrameContent .textBottom .titre_1 {
+    line-height: 1;
+    font-family: 'NexaBlack';
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 2;
+}
+
+.iFrameContent .textBottom .titre_1 .strongText {
+    line-height: 1;
+    font-family: 'NexaBlack';
+    color: #f59a00;
+}
+
+/* SECOND FICHIER APRES 09/09/2019 */
+
+.secondTime.iFrameContent .textBottom .titre_0, .secondTime .iFrameContent .textBottom .titre_0 .strongText {
+    font-size: 42px;
+    font-family: 'NexaBlack';
+}
+
+
+.secondTime.iFrameContent .textBottom .titre_1, .secondTime .iFrameContent .textBottom .titre_1 .strongText {
+    font-size: 120px;
+    font-family: 'BebasNeueBold';
+    letter-spacing: 15px;
+    padding-left: 15px;
+}
+
+/* TROISIEME FICHIER JUSTE AVANT 23/09/2019 */
+
+.beforeLastTime.iFrameContent .videoContainer {
+     position: relative;
+     z-index: 3;
+ }
+
+.beforeLastTime.iFrameContent .videoContainer {
+    max-width: 718px;
+    width: 100%;
+}
+
+.beforeLastTime.iFrameContent .videoContainer iframe {
+    width: 600px;
+    height: 350px;
+}
+
+.beforeLastTime.iFrameContent .textBottom {
+    margin: auto;
+    max-width: 600px;
+    padding: 0;
+}
+
+.beforeLastTime.iFrameContent .textBottom .barBeforeAfter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.beforeLastTime.iFrameContent .textBottom .barBeforeAfter::before,
+.beforeLastTime.iFrameContent .textBottom .barBeforeAfter::after {
+    content: '';
+    height: 3px;
+    width: 50%;
+    background: #f59a00;
+}
+
+.beforeLastTime.iFrameContent .textBottom .logo {
+    width: 100%;
+    padding-top: 25px;
+}
+
+.beforeLastTime.iFrameContent .textBottom .titre_0 {
+    font-family: 'BebasNeueBold';
+    color: #1f1f1f;
+    line-height: 1;
+    font-weight: bold;
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+    flex-direction: column;
+}
+
+.beforeLastTime.iFrameContent .textBottom .titre_0 .strongText {
+    font-family: 'NexaBlack';
+    color: #f59a00;
+    line-height: 1;
+    font-weight: bold;
+    font-size: 57px;
+}
+
+/* TROISIEME FICHIER APRES 23/09/2019 */
+
+.lastTime.iFrameContent .videoContainer {
+    position: relative;
+    z-index: 3;
+}
+
+.lastTime.iFrameContent .videoContainer {
+    max-width: 718px;
+    width: 100%;
+}
+
+.lastTime.iFrameContent .videoContainer iframe {
+    width: 600px;
+    height: 350px;
+}
+
+.lastTime.iFrameContent .textBottom {
+    margin: auto;
+    max-width: 600px;
+    padding: 0;
+}
+
+.lastTime.iFrameContent .textBottom .barBeforeAfter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.lastTime.iFrameContent .textBottom .barBeforeAfter::before,
+.lastTime.iFrameContent .textBottom .barBeforeAfter::after {
+    content: '';
+    height: 3px;
+    width: 50%;
+    background: #f59a00;
+}
+
+.lastTime.iFrameContent .textBottom .logo {
+   width: 100%;
+}
+
+.lastTime.iFrameContent .textBottom .text {
+    font-family: 'NexaBlack';
+    text-transform: uppercase;
+    color: #1f1f1f;
+    line-height: 1;
+    z-index: 2;
+    padding: 15px 50px;
+}
+
+.lastTime.iFrameContent .textBottom .titre_0 {
+    font-family: 'BebasNeueBold';
+    color: #1f1f1f;
+    line-height: 1;
+    font-weight: bold;
+    font-size: 83px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.lastTime.iFrameContent .textBottom .titre_0 .strongText {
+    font-family: 'BebasNeueBold';
+    color: #f59a00;
+    line-height: 1;
+    font-weight: bold;
+    font-size: 83px;
+    padding-left: 15px;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1600px) {
+
+    .iFrameContent .text {
+        padding-bottom: 30px;
+    }
+    .iFrameContent .compteurContainer {
+        padding-top: 120px;
+    }
+
+    .iFrameContent .compteurContainer .logo {
+        height: 400px;
+    }
+
+    .iFrameContent .textBottom {
+        padding: 25px 0;
+    }
+
+    /* SECOND FICHIER APRES 09/09/2019 */
+
+    .secondTime .iFrameContent .textBottom .titre_0, .secondTime .iFrameContent .textBottom .titre_0 .strongText {
+        font-size: 30px;
+        font-family: 'NexaBlack';
+    }
+
+
+    .secondTime .iFrameContent .textBottom .titre_1, .secondTime .iFrameContent .textBottom .titre_1 .strongText {
+        font-size: 60px;
+        font-family: 'BebasNeueBold';
+        letter-spacing: 15px;
+        padding-left: 15px;
+    }
+
+    /* TROISIEME FICHIER APRES 23/09/2019 */
+
+    .lastTime.iFrameContent .videoContainer {
+        max-width: 560px;
+    }
+
+    .lastTime.iFrameContent .videoContainer iframe {
+        width: 560px;
+        height: 315px;
+    }
+
+    .lastTime.iFrameContent .textBottom {
+        margin: auto;
+        max-width: 560px;
+    }
+
+    .lastTime.iFrameContent .textBottom .titre_0 {
+        font-size: 80px;
+    }
+
+    .lastTime.iFrameContent .textBottom .titre_0 .strongText {
+        font-size: 80px;
+    }
+}

@@ -1,0 +1,130 @@
+.containerBlockMin {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.containerBlockMax {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.containerBlock {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.titre_0 {
+    font-size: 130px;
+}
+
+.titre_1 {
+    font-size: 42px;
+}
+
+.titre_2 {
+    font-size: 30px;
+}
+
+.titre_0 span {
+    font-size: 130px;
+}
+
+.titre_1 span {
+    font-size: 42px;
+}
+
+.titre_2 span {
+    font-size: 30px;
+}
+
+.text_0 {
+    font-size: 16px;
+}
+
+.text_1 {
+    font-size: 14px;
+}
+
+.text_2 {
+    font-size: 13px;
+}
+
+.text_3 {
+    font-size: 12px;
+}
+
+.transition250 {
+    transition: 0.25s;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -ms-transition: 0.25s;
+    -o-transition: 0.25s;
+}
+
+.transition500 {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.transition750 {
+    transition: 0.75s;
+    -webkit-transition: 0.75s;
+    -moz-transition: 0.75s;
+    -ms-transition: 0.75s;
+    -o-transition: 0.75s;
+}
+
+.transition1000 {
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.linkDefault {
+    color: #4a4c53;
+    text-decoration: none;
+}
+
+.linkDefault:hover, .linkDefault:focus {
+    text-decoration: underline;
+}
+
+
+.titreDivide {
+
+}
+
+.titreDivide .strongText {
+
+}
+
+@media screen and (max-width: 1600px) {
+    .titre_0 {
+        font-size: 60px;
+    }
+
+    .titre_1 {
+        font-size: 30px;
+    }
+
+    .titre_2 {
+        font-size: 20px;
+    }
+
+    .titre_0 span {
+        font-size: 60px;
+    }
+
+    .titre_1 span {
+        font-size: 30px;
+    }
+
+    .titre_2 span {
+        font-size: 20px;
+    }
+}

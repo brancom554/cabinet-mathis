@@ -1,0 +1,107 @@
+/**
+ * @author: iull
+ * @desc: loader de la bibliothèque utilisant jquery et des fonctions associées
+ * v. 1.0
+ */
+
+var $j = jQuery.noConflict();
+$j.when($j.ready).then(function () {
+    if ($j('#labId').length) {
+        $j.getScript('/admin/?call=getJs&js=labs/' + $j('#labId').val() + '.js&t=1628695926', function () {
+            initiate();
+        });
+    }
+});
+
+jQuery.extend({
+    getScript: function (url, callback) {
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement("script");
+        script.src = url;
+
+        // Handle Script loading
+        {
+            var done = false;
+
+            // Attach handlers for all browsers
+            script.onload = script.onreadystatechange = function () {
+                if (!done && (!this.readyState ||
+                    this.readyState == "loaded" || this.readyState == "complete")) {
+                    done = true;
+                    if (callback)
+                        callback();
+
+                    // Handle memory leak in IE
+                    script.onload = script.onreadystatechange = null;
+                }
+            };
+        }
+
+        head.appendChild(script);
+
+        // We handle everything using the script element injection
+        return undefined;
+    }
+});
+
+//
+function openLab(file, callback, folder) {
+    var lab = file;
+    if (folder) {
+        lab = folder + '/' + file;
+    }
+    $j.getScript('/admin/?call=getJs&js=labs/' + lab + '&t=1628695926', function () {
+        initiate();
+        if (callback != null) {
+            callback();
+        }
+    });
+}
+
+/*------------------------------------------------------------------------------*/
+// BG animated plugins
+/*------------------------------------------------------------------------------*/
+(function ($) {
+    $.extend($.fx.step, {
+        backgroundPosition: function (fx) {
+            if (fx.state === 0 && typeof fx.end == 'string') {
+                var start = $.css(fx.elem, 'backgroundPosition');
+                start = toArray(start);
+                fx.start = [start[0], start[2]];
+                var end = toArray(fx.end);
+                fx.end = [end[0], end[2]];
+                fx.unit = [end[1], end[3]];
+            }
+            var nowPosX = [];
+            nowPosX[0] = ((fx.end[0] - fx.start[0]) * fx.pos) + fx.start[0] + fx.unit[0];
+            nowPosX[1] = ((fx.end[1] - fx.start[1]) * fx.pos) + fx.start[1] + fx.unit[1];
+            fx.elem.style.backgroundPosition = nowPosX[0] + ' ' + nowPosX[1];
+
+            function toArray(strg) {
+                strg = strg.replace(/left|top/g, '0px');
+                strg = strg.replace(/right|bottom/g, '100%');
+                strg = strg.replace(/([0-9\.]+)(\s|\)|$)/g, "$1px$2");
+                var res = strg.match(/(-?[0-9\.]+)(px|\%|em|pt)\s(-?[0-9\.]+)(px|\%|em|pt)/);
+                return [parseFloat(res[1], 10), res[2], parseFloat(res[3], 10), res[4]];
+            }
+        }
+    });
+})(jQuery);
+
+//equivalent du label pour les participants à une formation
+function selectParticipant(id,type='0') {
+    $j.ajax({
+        type: "GET",
+        url: "xmlrpc.php",
+        data: {
+            mode: "formations-setListParticipantsWebinaires",
+            idParticipant: id,
+            type: type,
+        },
+        success: function (data) {
+            if (data=='0'){
+                $j('#btnTerminerReservation').prop('disabled', true);
+            }
+        }
+    });
+}

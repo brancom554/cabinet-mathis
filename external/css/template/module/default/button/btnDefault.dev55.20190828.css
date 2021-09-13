@@ -1,0 +1,22 @@
+.btnDefault {
+    padding: 23px;
+    line-height: 1;
+    background: #4a4c53;
+    border-radius: 50px;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.btnDefault:hover, .btnDefault:focus {
+    background: #f59a00;
+}
+
+@media screen and (max-width: 1600px) {
+    .btnDefault {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,342 @@
+.pageLogin {
+    display: flex;
+    width: 100%;
+    background: #fcfcfc;
+}
+
+.iFrameContainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    position: relative;
+    z-index: 999;
+    overflow: hidden;
+    min-width: 575px;
+    margin-right: -1px;
+}
+
+.loginContainer {
+    background: #fcfcfc;
+    height: 100%;
+    transform: skewX(-3deg) translateX(30px);
+    -webkit-transform: skewX(-3deg) translateX(30px);
+    -moz-transform: skewX(-3deg) translateX(30px);
+    -ms-transform: skewX(-3deg) translateX(30px);
+    -o-transform: skewX(-3deg) translateX(30px);
+}
+
+.login:before {
+    content: '';
+    background: #fcfcfc;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 200px;
+}
+
+.loginContainer .loginStructure {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 75px;
+    transform: skewX(3deg) translateX(0);
+    -webkit-transform: skewX(3deg) translateX(0);
+    -moz-transform: skewX(3deg) translateX(0);
+    -ms-transform: skewX(3deg) translateX(0);
+    -o-transform: skewX(3deg) translateX(0);
+}
+
+.loginContainer .loginStructure .loginContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginContainer .loginStructure .loginContent .formContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginContainer .loginStructure .loginContent .formContainer .logo {
+    width: 400px;
+    padding: 10px 0;
+}
+
+
+.loginContainer .loginStructure .loginContent .formContainer .form {
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.loginContainer .loginStructure .loginContent .formContainer .form .error{
+    color: #d82727;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.loginContainer .loginStructure .loginContent .formContainer.formRecovery .form .error{
+    color: #49b51d;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.loginContainer .loginStructure .loginContent .formContainer .form .error::first-letter {
+    text-transform: uppercase;
+}
+
+.loginContainer .loginStructure .loginContent .formContainer .form .inputContainer {
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.loginContainer .loginStructure .loginContent .formContainer .form .inputContainer .inputDefault {
+    width: 100%;
+    padding-left: 60px;
+}
+
+.loginContainer .loginStructure .loginContent .formContainer .form .inputContainer .iconInput {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    fill: #4a4c53;
+    color: #4a4c53;
+    font-size: 20px;
+}
+
+.loginContainer .loginStructure .loginContent .formContainer .form .inputContainer .iconInput.seePassword {
+    left: inherit;
+    right: 20px;
+    fill: #a4a5a9;
+    color: #a4a5a9;
+    cursor: pointer;
+}
+
+.loginContainer .loginStructure .loginContent .formContainer .form .buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginContainer .loginStructure .loginContent .formContainer .form .buttonContainer .btnDefault {
+    width: 45%;
+}
+
+.loginContainer .loginStructure .loginContent .formContainer .form .btnDefault {
+    margin-top: 20px;
+}
+
+.loginContainer .loginStructure .loginContent .formContainer .form .linkContent {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4a4c53;
+    text-decoration: none;
+}
+
+.loginContainer .loginStructure .loginContent .formContainer .form .linkContent:hover {
+    color: #f59a00;
+}
+
+.loginContainer .loginStructure .loginContent .formContainer.formError .form .inputContainer .inputDefault {
+    border-color: #d82727;
+}
+
+.loginContainer .loginStructure .loginContent .formContainer.formRecovery .form .inputContainer .inputDefault {
+    border-color: rgba(0,0,0,0.1);
+}
+
+.loginContainer .loginStructure .loginContent .hexaLinkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.loginContainer .loginStructure .loginContent .hexaLinkContainer .liste {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+.loginContainer .loginStructure .loginContent .hexaLinkContainer .liste .element {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.loginContainer .loginStructure .loginContent .hexaLinkContainer .liste .element:hover,
+.loginContainer .loginStructure .loginContent .hexaLinkContainer .liste .element:focus {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.loginContainer .loginStructure .loginContent .hexaLinkContainer .liste .element.marginTopHexa {
+    margin-top: -10px;
+}
+
+.loginContainer .loginStructure .loginContent .hexaLinkContainer .liste .element .link {
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    font-size: 14px;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+    color: #4a4c53;
+}
+
+.loginContainer .loginStructure .loginContent .hexaLinkContainer .liste .element .link:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    width: 250px;
+    height: 250px;
+}
+
+.loginContainer .loginStructure .footerLogin {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding: 15px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.loginContainer .loginStructure .footerLogin {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding: 15px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginContainer .loginStructure .footerLogin .logo {
+    max-width: 120px;
+}
+
+.loginContainer .loginStructure .footerLogin .copyright {
+    color: rgba(74,76,83,0.5);
+}
+
+.conditionTextContainer {
+    padding: 15px 0;
+}
+
+.conditionTextContainer .conditionTextContent {
+    padding: 2.5px 0;
+    text-align: center;
+}
+
+.conditionTextContainer .conditionTextContent .text {
+    font-weight: 700;
+}
+
+.redColor {
+    color: #d82727;
+}
+
+.greenColor {
+    color: #49b51d;
+}
+
+@media screen and (max-width: 1600px) {
+
+    .login {
+        min-width: 475px;
+    }
+
+    .loginContainer:before {
+        left: -25px;
+    }
+
+    .loginContainer .loginStructure {
+        padding: 0 25px;
+    }
+
+    .loginContainer .loginStructure .loginContent .formContainer .logo {
+        width: 200px;
+    }
+
+    .loginContainer .loginStructure .loginContent .formContainer .form {
+        padding: 25px 0;
+        width: 80%;
+    }
+
+    .loginContainer .loginStructure .loginContent .formContainer .form .inputContainer {
+        margin-bottom: 15px;
+    }
+
+    .loginContainer .loginStructure .loginContent .formContainer .form .inputContainer .inputDefault {
+        padding-left: 40px;
+    }
+
+    .loginContainer .loginStructure .loginContent .formContainer .form .inputContainer .iconInput {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        color: #4a4c53;
+        font-size: 20px;
+    }
+
+
+    .loginContainer .loginStructure .loginContent .formContainer .form .btnDefault {
+        margin-top: 0;
+    }
+
+    .loginContainer .loginStructure .loginContent .hexaLinkContainer {
+        padding: 25px 0;
+    }
+
+    .loginContainer .loginStructure .footerLogin {
+        padding: 15px 0;
+    }
+
+}
